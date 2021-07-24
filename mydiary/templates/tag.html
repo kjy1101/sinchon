@@ -1,0 +1,7 @@
+<h1>HashTag</h1>
+
+{% for tag in tags %}
+    <a href="{% url 'tag_detail' pk=tag.pk %}">#{{tag.name}}</a>
+    {{tag.content_set.count}}
+    <br><br>
+{% endfor %}

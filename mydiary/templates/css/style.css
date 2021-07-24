@@ -1,0 +1,17 @@
+.container{
+    width:600px;
+}
+ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;  
+
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    height:200px;
+}
+a{
+    color:black;
+}
